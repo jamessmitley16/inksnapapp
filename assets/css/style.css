@@ -1,7 +1,8 @@
 /* 	=========================
-
-	App Version			 : 1.0
-	Author NAME:
+	Template Name 	 : Wedo
+	Author			 : DexignZone
+	Version			 : 1.0
+	Author Portfolio : https://themeforest.net/user/dexignzone
 	=========================
 	
 	=========================
@@ -91,24 +92,24 @@
 @import url("../icons/flaticon/flaticon.css");
 @import url("../icons/themify-icons/css/themify-icons.css");
 :root {
-  --primary: #2196f3;
-  --primary-light: rgba(236, 250, 255, 0.80);
+  --primary: #FE4487;
+  --primary-light: #fe9fc2;
   --bg-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 37.5%, rgba(255, 255, 255, 0.67) 44.84%, #FFF 56.23%, #FFF 100%);
-  --primary-hover: #0c7cd5;
-  --primary-dark: #064475;
-  --secondary: #102C3C;
+  --primary-hover: #fe1166;
+  --primary-dark: #a8013d;
+  --secondary: #612657;
   --secondary-light: rgba(47, 47, 47, 0.50);
-  --rgba-primary-1: rgba(33,150,243,0.1);
-  --rgba-primary-2: rgba(33,150,243,0.2);
-  --rgba-primary-3: rgba(33,150,243,0.3);
-  --rgba-primary-4: rgba(33,150,243,0.4);
-  --rgba-primary-5: rgba(33,150,243,0.5);
-  --rgba-primary-6: rgba(33,150,243,0.6);
-  --rgba-primary-7: rgba(33,150,243,0.7);
-  --rgba-primary-8: rgba(33,150,243,0.8);
-  --rgba-primary-9: rgba(33,150,243,0.9);
-  --bs-font-sans-serif: "Segoe UI";
-  --bs-font-monospace: "Segoe UI";
+  --rgba-primary-1: rgba(254, 68, 135, 0.1);
+  --rgba-primary-2: rgba(254, 68, 135, 0.2);
+  --rgba-primary-3: rgba(254, 68, 135, 0.3);
+  --rgba-primary-4: rgba(254, 68, 135, 0.4);
+  --rgba-primary-5: rgba(254, 68, 135, 0.5);
+  --rgba-primary-6: rgba(254, 68, 135, 0.6);
+  --rgba-primary-7: rgba(254, 68, 135, 0.7);
+  --rgba-primary-8: rgba(254, 68, 135, 0.8);
+  --rgba-primary-9: rgba(254, 68, 135, 0.9);
+  --font-family-title: Poppins, sans-serif;
+  --font-family-base: Open Sans, sans-serif;
   --box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
   --border-radius-md: 18px;
   --border-radius: 12px;
@@ -122,7 +123,7 @@
   --card-bg: #fff;
   --theme-text-color: #fff;
   --light: #FFF1F6;
-  --text-accent: #1869ac; }
+  --text-accent: #612657; }
 
 /*
 	0 - 600: Phone
@@ -154,7 +155,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #FE4487;
-  --bs-secondary: #130636;
+  --bs-secondary: #612657;
   --bs-success: #18BF29;
   --bs-info: #2B39B9;
   --bs-warning: #ffb02c;
@@ -195,10 +196,10 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Segoe UI";
-  --bs-font-monospace: "Segoe UI";
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "Segoe UI";
+  --bs-body-font-family: "Open Sans", sans-serif;
   --bs-body-font-size: 0.875rem;
   --bs-body-font-weight: 500;
   --bs-body-line-height: 1.6;
@@ -2537,19 +2538,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #130636;
-  --bs-btn-border-color: #130636;
+  --bs-btn-bg: #612657;
+  --bs-btn-border-color: #612657;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #130636;
-  --bs-btn-hover-border-color: #130636;
+  --bs-btn-hover-bg: #52204a;
+  --bs-btn-hover-border-color: #4e1e46;
   --bs-btn-focus-shadow-rgb: 121, 71, 112;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #130636;
-  --bs-btn-active-border-color: #130636;
+  --bs-btn-active-bg: #4e1e46;
+  --bs-btn-active-border-color: #491d41;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #130636;
-  --bs-btn-disabled-border-color: #130636; }
+  --bs-btn-disabled-bg: #612657;
+  --bs-btn-disabled-border-color: #612657; }
 
 .btn-success {
   --bs-btn-color: #000;
@@ -3954,7 +3955,7 @@ textarea.form-control-lg {
     float: left;
     padding-right: var(--bs-breadcrumb-item-padding-x);
     color: var(--bs-breadcrumb-divider-color);
-    content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */; }
+    content: var(--bs-breadcrumb-divider, "https://wedo.dexignzone.com/") /* rtl: var(--bs-breadcrumb-divider, "/") */; }
 
 .breadcrumb-item.active {
   color: var(--bs-breadcrumb-item-active-color); }
@@ -4658,6 +4659,21 @@ textarea.form-control-lg {
   border-radius: var(--bs-modal-border-radius);
   outline: 0; }
 
+.modal-backdrop {
+  --bs-backdrop-zindex: 1050;
+  --bs-backdrop-bg: #000;
+  --bs-backdrop-opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--bs-backdrop-zindex);
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bs-backdrop-bg); }
+  .modal-backdrop.fade {
+    opacity: 0; }
+  .modal-backdrop.show {
+    opacity: var(--bs-backdrop-opacity); }
 
 .modal-header {
   display: flex;
@@ -9445,9 +9461,8 @@ body {
   color: #6A6A6A;
   font-size: 0.875rem;
   font-weight: 400;
-  /* font-family: var(--font-family-base); */
-  background-color: var(--body-bg);
-  }
+  font-family: var(--font-family-base);
+  background-color: var(--body-bg); }
   body.fixed {
     overflow: hidden;
     position: fixed; }
@@ -11355,7 +11370,7 @@ section {
     width: 100%;
     top: 0; }
   .header.bg-img {
-    background-image: url(../images/pattern1.png);
+    background-image: url(https://wedo.dexignzone.com/xhtml/page-error-404.html);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--primary); }
@@ -12488,7 +12503,7 @@ section {
   .theme-dark .page-onboading + .footer {
     background-color: #110021; }
   .theme-dark .welcome-area .join-area:after {
-    background-image: url(../images/bg-shape-dark.png); }
+    background-image: url(https://wedo.dexignzone.com/xhtml/page-error-404.html); }
   .theme-dark .form-control.custom-image-select-2 .dropdown-toggle:after,
   .theme-dark .form-control.custom-image-select-2 .filter-option-inner-inner {
     color: #fff; }
@@ -12503,7 +12518,7 @@ section {
     color: #203647 !important; }
   .theme-dark .accordion-button::after,
   .theme-dark .dz-form-select.style-2 {
-    background-image: url(../images/down-white.svg); }
+    background-image: url(https://wedo.dexignzone.com/xhtml/page-error-404.html); }
   .theme-dark .dz-wizard .actions {
     background: rgba(44, 63, 109, 0.75);
     backdrop-filter: blur(10px); }
@@ -16803,7 +16818,7 @@ label input {
   .add-banner:after {
     content: "";
     position: absolute;
-    background-image: url(../images/svg/shape.svg);
+    background-image: url(https://wedo.dexignzone.com/xhtml/page-error-404.html);
     top: 40px;
     left: 8px;
     width: 25px;
