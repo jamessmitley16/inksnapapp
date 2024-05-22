@@ -107,8 +107,8 @@
   --rgba-primary-7: rgba(33,150,243,0.7);
   --rgba-primary-8: rgba(33,150,243,0.8);
   --rgba-primary-9: rgba(33,150,243,0.9);
-  --font-family-title:  "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-base: "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-title:  "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-base: "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
   --border-radius-md: 18px;
   --border-radius: 12px;
@@ -195,10 +195,10 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: "Segoe UI","Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: "Segoe UI","Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-body-font-family: "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-body-font-size: 0.875rem;
   --bs-body-font-weight: 500;
   --bs-body-line-height: 1.6;
